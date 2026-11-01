@@ -88,10 +88,10 @@ def push_to_ntfy(topic, markdown_content):
     today_str = datetime.date.today().strftime("%d %b %Y")
     
     headers = {
-        "Title": f"Tech Upskill Brief — {today_str}",
-        "Priority": "high",
-        "Tags": "brain,computer",
-        "Markdown": "yes"
+    "Title": f"Tech Upskill Brief - {today_str}",
+    "Priority": "high",
+    "Tags": "brain,computer",
+    "Markdown": "yes",
     }
     
     # Send the combined markdown digest
